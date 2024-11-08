@@ -1,0 +1,42 @@
+name: ecb_communications
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Main dependencies
+  - arviz
+  - zarr
+  - xarray-einstats
+  - einops
+  - pip
+  - pymc>=5.16.2
+  - seaborn
+  - nutpie
+  - networkx
+  - pyprojroot
+  - numba
+  - pandas
+  - numba
+  - numba-progress
+  - scipy
+  - pyarrow
+  - scikit-learn
+  - statsmodels
+  - sympy
+  - pip:
+    - beautifulsoup4
+    - lxml
+    - html5lib
+    - statsmodels
+
+  # Dev tools
+  - pytest
+  - pre-commit
+
+
+  # Misc
+  - ipywidgets
+  - jupyter
+  - notebook
