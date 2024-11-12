@@ -1,0 +1,25 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,log_Similarity  ,  R-squared:         ,   0.494
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.485
+Method:          ,Least Squares   ,  F-statistic:       ,   61.15
+Date:            ,Tue, 12 Nov 2024,  Prob (F-statistic):,5.21e-36
+Time:            ,09:51:22        ,  Log-Likelihood:    , -178.40
+No. Observations:,   256          ,  AIC:               ,   366.8
+Df Residuals:    ,   251          ,  BIC:               ,   384.5
+Df Model:        ,     4          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const           ,   -1.8147,    0.072,  -25.265, 0.000,   -1.956,   -1.673
+Time            ,    0.0002, 1.25e-05,   14.175, 0.000,    0.000,    0.000
+output_gap_quart,    6.4006,    1.808,    3.540, 0.000,    2.839,    9.962
+Inflation       ,  -17.7613,    2.190,   -8.110, 0.000,  -22.074,  -13.448
+Delta MRO       ,    0.2619,    0.211,    1.242, 0.215,   -0.153,    0.677
+Omnibus:      ,209.319,  Durbin-Watson:     ,   0.929
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,4252.609
+Skew:         ,-3.089 ,  Prob(JB):          ,    0.00
+Kurtosis:     ,21.987 ,  Cond. No.          ,3.76e+05
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.76e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,28 @@
+                      OLS Regression Results                     ,,,,,,
+Dep. Variable:   ,,log_Similarity  ,,  R-squared:         ,,0.595
+Model:           ,,OLS             ,,  Adj. R-squared:    ,,0.584
+Method:          ,,Least Squares   ,,  F-statistic:       ,,52.08
+Date:            ,,Tue  12 Nov 2024,,  Prob (F-statistic):,,2.98E-45
+Time:            ,,9:51:22,,  Log-Likelihood:    ,,-149.75
+No. Observations:,,256,,  AIC:               ,,315.5
+Df Residuals:    ,,248,,  BIC:               ,,343.9
+Df Model:        ,,7,        ,,,
+Covariance Type: ,nonrobust       ,                     ,        ,,,
+                             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                        ,-2.2524,0.087,-25.964,0,-2.423,-2.082
+Time count                   ,0.0087,0.001,6.624,0,0.006,0.011
+output_gap_quart             ,2.6297,1.885,1.395,0.164,-1.083,6.342
+Inflation                    ,-11.925,2.405,-4.958,0,-16.662,-7.188
+Delta MRO                    ,0.3607,0.191,1.893,0.06,-0.015,0.736
+President_Christine Lagarde  ,-0.702,0.313,-2.243,0.026,-1.318,-0.086
+President_Jean Claude Trichet,0.2438,0.123,1.982,0.049,0.002,0.486
+President_Mario Draghi       ,-0.1564,0.221,-0.708,0.479,-0.591,0.278
+Omnibus:      ,,295.959,,  Durbin-Watson:     ,,1.154
+Prob(Omnibus):,,0,,  Jarque-Bera (JB):  ,,16388.461
+Skew:         ,,-4.849,,  Prob(JB):          ,,0
+Kurtosis:     ,,40.979,,  Cond. No.          ,,1.44E+04
+,,,,,,
+Notes:,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,
+[2] The condition number is large, 1.44e+04. This might indicate that there are,,,,,
+strong multicollinearity or other numerical problems.,,,,,,

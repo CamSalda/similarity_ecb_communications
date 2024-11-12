@@ -1,0 +1,22 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,log_Similarity  ,  R-squared:         ,   0.088
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.077
+Method:          ,Least Squares   ,  F-statistic:       ,   8.119
+Date:            ,Tue, 12 Nov 2024,  Prob (F-statistic):,3.50e-05
+Time:            ,09:51:22        ,  Log-Likelihood:    , -253.68
+No. Observations:,   256          ,  AIC:               ,   515.4
+Df Residuals:    ,   252          ,  BIC:               ,   529.5
+Df Model:        ,     3          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const           ,   -1.1466,    0.073,  -15.797, 0.000,   -1.290,   -1.004
+output_gap_quart,    3.3271,    2.404,    1.384, 0.168,   -1.407,    8.062
+Inflation       ,  -14.2810,    2.914,   -4.900, 0.000,  -20.020,   -8.541
+Delta MRO       ,    0.7098,    0.279,    2.543, 0.012,    0.160,    1.259
+Omnibus:      ,92.154,  Durbin-Watson:     ,   0.537
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  , 287.687
+Skew:         ,-1.566,  Prob(JB):          ,3.38e-63
+Kurtosis:     , 7.143,  Cond. No.          ,    76.3
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

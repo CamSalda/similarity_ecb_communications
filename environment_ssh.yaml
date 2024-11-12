@@ -30,6 +30,7 @@ dependencies:
     - lxml
     - html5lib
     - statsmodels
+    - nltk
 
   # Dev tools
   - pytest

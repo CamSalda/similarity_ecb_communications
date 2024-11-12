@@ -1,0 +1,26 @@
+                      OLS Regression Results                      ,,,,,,
+Dep. Variable:   ,,,AV_cum_ab_returns,  R-squared:         ,,0.054
+Model:           ,,,OLS              ,  Adj. R-squared:    ,,0.028
+Method:          ,,,Least Squares    ,  F-statistic:       ,,2.036
+Date:            ,,,Tue  12 Nov 2024 ,  Prob (F-statistic):,,0.0512
+Time:            ,,,9:51:22,  Log-Likelihood:    ,,516.4
+No. Observations:,,,256,  AIC:               ,,-1017
+Df Residuals:    ,,,248,  BIC:               ,,-988.4
+Df Model:        ,,,7,,                     ,        
+Covariance Type: ,,                     ,nonrobust        ,,,
+                            ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                       ,0.0328,0.004,7.818,0,0.025,0.041
+Pessimism x log_similarity  ,0.0256,0.279,0.092,0.927,-0.524,0.575
+output_gap_quart            ,0.0108,0.143,0.076,0.94,-0.27,0.292
+Inflation                   ,-0.1118,0.203,-0.55,0.583,-0.512,0.289
+Delta MRO                   ,-0.0317,0.015,-2.044,0.042,-0.062,-0.001
+pessimis_Christine Lagarde  ,1.6579,1.008,1.645,0.101,-0.328,3.643
+pessimis_Jean Claude Trichet,0.6634,0.554,1.198,0.232,-0.427,1.754
+pessimis_Mario Draghi       ,0.2564,0.662,0.387,0.699,-1.047,1.56
+Omnibus:      ,,243.763,,  Durbin-Watson:     ,,1.995
+Prob(Omnibus):,,0,,  Jarque-Bera (JB):  ,,7488.842
+Skew:         ,,3.722,,  Prob(JB):          ,,0
+Kurtosis:     ,,28.43,,  Cond. No.          ,,520
+,,,,,,
+Notes:,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,

@@ -1,0 +1,23 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,AV_cum_ab_returns,  R-squared:         ,   0.033
+Model:           ,OLS              ,  Adj. R-squared:    ,   0.018
+Method:          ,Least Squares    ,  F-statistic:       ,   2.174
+Date:            ,Tue, 12 Nov 2024 ,  Prob (F-statistic):,0.0725  
+Time:            ,09:51:22         ,  Log-Likelihood:    ,  513.61
+No. Observations:,   256           ,  AIC:               ,  -1017.
+Df Residuals:    ,   251           ,  BIC:               ,  -999.5
+Df Model:        ,     4           ,                     ,        
+Covariance Type: ,nonrobust        ,                     ,        
+                            ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                       ,    0.0317,    0.002,   14.451, 0.000,    0.027,    0.036
+Pessimism x log_similarity  ,   -0.0974,    0.273,   -0.358, 0.721,   -0.634,    0.439
+pessimis_Christine Lagarde  ,    0.5343,    0.711,    0.751, 0.453,   -0.867,    1.935
+pessimis_Jean Claude Trichet,    0.8440,    0.546,    1.545, 0.124,   -0.232,    1.920
+pessimis_Mario Draghi       ,    0.2204,    0.657,    0.335, 0.738,   -1.074,    1.515
+Omnibus:      ,258.799,  Durbin-Watson:     ,   1.965
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,9533.633
+Skew:         , 4.021 ,  Prob(JB):          ,    0.00
+Kurtosis:     ,31.794 ,  Cond. No.          ,    410.
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

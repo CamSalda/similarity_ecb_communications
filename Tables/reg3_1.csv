@@ -1,0 +1,28 @@
+                      OLS Regression Results                     
+Dep. Variable:   ,log_Similarity  ,  R-squared:         ,   0.592
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.581
+Method:          ,Least Squares   ,  F-statistic:       ,   51.49
+Date:            ,Mon, 11 Nov 2024,  Prob (F-statistic):,6.79e-45
+Time:            ,22:50:31        ,  Log-Likelihood:    , -150.61
+No. Observations:,   256          ,  AIC:               ,   317.2
+Df Residuals:    ,   248          ,  BIC:               ,   345.6
+Df Model:        ,     7          ,                     ,        
+Covariance Type: ,nonrobust       ,                     ,        
+                             ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                        ,   -2.2273,    0.086,  -25.990, 0.000,   -2.396,   -2.059
+Time                         ,    0.0003, 3.87e-05,    6.475, 0.000,    0.000,    0.000
+output_gap_quart             ,    2.2567,    1.909,    1.182, 0.238,   -1.502,    6.016
+Inflation                    ,  -12.1700,    2.410,   -5.050, 0.000,  -16.917,   -7.423
+Delta MRO                    ,    0.3487,    0.191,    1.824, 0.069,   -0.028,    0.725
+President_Christine Lagarde  ,   -0.7305,    0.323,   -2.259, 0.025,   -1.368,   -0.093
+President_Jean Claude Trichet,    0.2873,    0.120,    2.402, 0.017,    0.052,    0.523
+President_Mario Draghi       ,   -0.0718,    0.213,   -0.337, 0.737,   -0.492,    0.348
+Omnibus:      ,289.146,  Durbin-Watson:     ,   1.148 
+Prob(Omnibus):, 0.000 ,  Jarque-Bera (JB):  ,14978.873
+Skew:         ,-4.685 ,  Prob(JB):          ,    0.00 
+Kurtosis:     ,39.283 ,  Cond. No.          ,4.76e+05 
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.76e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,25 @@
+                      OLS Regression Results                      ,,,,,,
+Dep. Variable:   ,,AV_cum_ab_returns,,  R-squared:         ,,0.054
+Model:           ,,OLS              ,,  Adj. R-squared:    ,,0.032
+Method:          ,,Least Squares    ,,  F-statistic:       ,,2.384
+Date:            ,,Tue  12 Nov 2024 ,,  Prob (F-statistic):,,0.0294
+Time:            ,,9:51:22,,  Log-Likelihood:    ,,516.4
+No. Observations:,,256,,  AIC:               ,,-1019
+Df Residuals:    ,,249,,  BIC:               ,,-994
+Df Model:        ,,6,        ,,,
+Covariance Type: ,,nonrobust        ,        ,,,
+                            ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const                       ,0.0328,0.004,7.915,0,0.025,0.041
+output_gap_quart            ,0.0102,0.142,0.072,0.943,-0.27,0.29
+Inflation                   ,-0.1125,0.203,-0.555,0.58,-0.512,0.287
+Delta MRO                   ,-0.0313,0.015,-2.084,0.038,-0.061,-0.002
+pessimis_Christine Lagarde  ,1.6122,0.875,1.842,0.067,-0.112,3.336
+pessimis_Jean Claude Trichet,0.6295,0.411,1.531,0.127,-0.18,1.439
+pessimis_Mario Draghi       ,0.2359,0.622,0.379,0.705,-0.988,1.46
+Omnibus:      ,,243.759,,  Durbin-Watson:     ,,1.995
+Prob(Omnibus):,,0,,  Jarque-Bera (JB):  ,,7487.615
+Skew:         ,,3.722,,  Prob(JB):          ,,0
+Kurtosis:     ,,28.427,,  Cond. No.          ,,439
+,,,,,,
+Notes:,,,,,,
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.,,,,,,
